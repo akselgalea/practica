@@ -68,13 +68,12 @@ body::-webkit-scrollbar-thumb {
 
 .nav-link svg {
     min-width: 2rem;
-    max-height: 3.3rem;
     margin: 0 1.5rem;
     color: black;
 }
 
 .nav-link:hover{
-    background-color: #4caf50;
+    background-color: #4caf50
 }
 
 .nav-link:hover svg{
