@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-link svg {
     min-width: 2rem;
-    height: auto;
+    height: inherit;
     margin: 0 1.5rem;
     color: black;
 }
