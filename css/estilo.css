@@ -88,13 +88,12 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Shadows Into Light', cursive;
     font-weight: lighter;
     letter-spacing: 0.15rem;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 @media only screen and (min-width: 600px) {
     .navbar:hover {
         width: 15rem;
-        height: 5px;
     }
     
     .nav-link:hover .link-text {
