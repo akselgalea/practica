@@ -62,13 +62,13 @@ body::-webkit-scrollbar-thumb {
     height: 5rem;
     align-items: center;
     color: var(--text-primary);
-    justify-content: center;
     text-decoration: none;
     transition: 200ms;
 }
 
 .nav-link svg {
     min-width: 2rem;
+    height: auto;
     margin: 0 1.5rem;
     color: black;
 }
