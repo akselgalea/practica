@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-link svg {
     min-width: 2rem;
-    max-height: 3.5rem;
+    max-height: 3.3rem;
     margin: 0 1.5rem;
     color: black;
 }
@@ -94,6 +94,7 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (min-width: 600px) {
     .navbar:hover {
         width: 15rem;
+        height: 5px;
     }
     
     .nav-link:hover .link-text {
