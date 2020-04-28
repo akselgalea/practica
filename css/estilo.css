@@ -64,7 +64,6 @@ body::-webkit-scrollbar-thumb {
     color: var(--text-primary);
     text-decoration: none;
     transition: 200ms;
-    justify-content: center;
 }
 
 .nav-link svg {
@@ -96,6 +95,10 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (min-width: 600px) {
     .navbar:hover {
         width: 15rem;
+    }
+
+    .nav-link {
+        justify-content: center;
     }
 
     .nav-link:hover .link-text {
