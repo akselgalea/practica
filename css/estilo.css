@@ -114,6 +114,7 @@ body::-webkit-scrollbar-thumb {
 
     .navbar-link {
         justify-content: center;
+        text-align: center;
     }
 
     main {
