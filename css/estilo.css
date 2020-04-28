@@ -87,6 +87,7 @@ body::-webkit-scrollbar-thumb {
     color: white;
     font-family: 'Shadows Into Light', cursive;
     font-weight: lighter;
+    text-align: center;
     letter-spacing: 0.15rem;
     font-size: 20px;
 }
@@ -111,12 +112,7 @@ body::-webkit-scrollbar-thumb {
     .navbar-nav {
         flex-direction: row;
     }
-
-    .navbar-link {
-        justify-content: center;
-        text-align: center;
-    }
-
+    
     main {
         margin: 0px;
     }
