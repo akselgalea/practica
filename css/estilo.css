@@ -49,7 +49,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-item {
-    width: auto;
+    width: 100%;
 }
 
 /*.nav-item:last-child{
@@ -64,6 +64,7 @@ body::-webkit-scrollbar-thumb {
     color: var(--text-primary);
     text-decoration: none;
     transition: 200ms;
+    justify-content: center;
 }
 
 .nav-link svg {
@@ -96,7 +97,7 @@ body::-webkit-scrollbar-thumb {
     .navbar:hover {
         width: 15rem;
     }
-    
+
     .nav-link:hover .link-text {
         display: block;
     }
@@ -115,5 +116,15 @@ body::-webkit-scrollbar-thumb {
 
     main {
         margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-link svg {
+        max-width: 1.9rem;
+        width: auto;
+        margin: 0 0.5rem;
+        height: auto;
+        color: black;
     }
 }
