@@ -49,7 +49,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-item {
-    width: 100%;
+    width: auto;
 }
 
 /*.nav-item:last-child{
@@ -112,7 +112,7 @@ body::-webkit-scrollbar-thumb {
     .navbar-nav {
         flex-direction: row;
     }
-    
+
     main {
         margin: 0px;
     }
