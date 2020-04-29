@@ -97,10 +97,6 @@ body::-webkit-scrollbar-thumb {
         width: 15rem;
     }
 
-    .nav-link {
-        justify-content: center;
-    }
-
     .nav-link:hover .link-text {
         display: block;
     }
@@ -116,7 +112,11 @@ body::-webkit-scrollbar-thumb {
     .navbar-nav {
         flex-direction: row;
     }
-
+    
+    .nav-link {
+        justify-content: center;
+    }
+    
     main {
         margin: 0px;
     }
