@@ -1,0 +1,24 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "practica de algoritmos y cosas varias",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "practica",
+    "algoritmos",
+    "dev"
+  ],
+  "author": "Axel Galea",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
