@@ -1,15 +1,10 @@
-import fs from 'node:fs'
-import { resolve } from 'node:path'
-import { quicksort } from './utils/utils.js'
+import { quicksort } from './algorithms/index.js'
 
-const pathdb = resolve('database.json')
-
-const file = fs.readFileSync(pathdb).toString()
-const data = JSON.parse(file)
-
-const { valores } = data
-console.log(valores)
+const values = [5, 10, 7, 20, 25, 22, 17, 18, 1, 2, 3, 4, 3, 4, 4, 4]
+const quicksortValues = [...values]
+console.log(quicksortValues)
 
 console.time('quicksort')
-quicksort(valores)
+quicksort(quicksortValues, 0, values.length - 1)
+console.log('quicksort:', quicksortValues)
 console.timeEnd('quicksort')
